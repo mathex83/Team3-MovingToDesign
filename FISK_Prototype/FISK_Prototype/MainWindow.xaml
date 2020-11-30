@@ -21,5 +21,6 @@
             <TextBlock TextAlignment="Center">Opret<LineBreak/>bruger</TextBlock>
         </Button>
         <uc:BottomBar Height="80" Width="375" VerticalAlignment="Bottom"/>
+        Test
     </Grid>
 </Window>
