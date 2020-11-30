@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FISK_Prototype"
         xmlns:uc ="clr-namespace:FISK_Prototype.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="812" Width="375" Background="#CECECE">
+        Title="MainWindow" Height="812" Width="375" Background="#CECECE" Margin="0">
     <Grid>
         <TextBlock Text="FISK" Foreground="Black" Width="68" Height="40"
                HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="36" Margin="0,40,0,0" />

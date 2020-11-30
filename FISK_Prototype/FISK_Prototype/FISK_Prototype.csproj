@@ -105,5 +105,9 @@
     <Folder Include="Model\" />
     <Folder Include="View\" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow_back_ios-24px.png" />
+    <Resource Include="Images\home-24px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

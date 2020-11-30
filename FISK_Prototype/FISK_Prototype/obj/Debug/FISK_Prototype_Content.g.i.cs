@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("newfile1.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/arrow_back_ios-24px.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/home-24px.png")]
 
 
