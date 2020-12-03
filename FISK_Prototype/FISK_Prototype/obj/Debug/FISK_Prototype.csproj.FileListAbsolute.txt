@@ -32,3 +32,4 @@ P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\FISK_Prototype.csproj.CoreCompileInputs.cache
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\FISK_Prototype.exe
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\FISK_Prototype.pdb
+P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\FISK_Prototype.csprojAssemblyReference.cache
