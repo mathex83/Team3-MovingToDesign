@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:FISK_Prototype"
         xmlns:uc ="clr-namespace:FISK_Prototype.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="812" Width="375" Background="#CECECE" Margin="0">
-    <Grid>
+        Title="FISK" Height="812" Width="375" Background="#CECECE" Margin="0">
+    <Grid Margin="0">
         <TextBlock Text="FISK" Foreground="Black" Width="68" Height="40"
                HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="36" Margin="0,40,0,0" />
         <TextBlock Text="Frivillige I Skive Kommune" Foreground="Black" Width="230" Height="27"
@@ -20,6 +20,6 @@
                 Width="289" Height="140" Background="#717171" Margin="0,515,0,0">
             <TextBlock TextAlignment="Center">Opret<LineBreak/>bruger</TextBlock>
         </Button>
-        <uc:BottomBar Height="80" Width="375" VerticalAlignment="Bottom"/>
+        <uc:BottomBar Height="80" Width="375" VerticalAlignment="Bottom" BorderThickness="0"/>
     </Grid>
 </Window>

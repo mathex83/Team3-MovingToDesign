@@ -6,12 +6,12 @@
              xmlns:local="clr-namespace:FISK_Prototype.ViewModel"
              mc:Ignorable="d" 
              d:DesignHeight="80" d:DesignWidth="375" FontFamily="Franklin Gothic Demi">
-    <Grid Background="#717171">
+    <Grid Background="#717171" Margin="0">
         <Button Width="40" Height="40" HorizontalAlignment="Left" Margin="20,0,0,0" Background="#000000FF">
             <Image Source="/Images/arrow_back_ios-24px.png" />
         </Button>
         <Button Width="40" Height="40" HorizontalAlignment="Center" Margin="0" Background="#000000FF">
-            <Image Source="/Images/home-24px.png" Width="40" Height="40" HorizontalAlignment="Center"/>
+            <Image Source="/Images/home-24px.png"/>
         </Button>
     </Grid>
 </UserControl>
