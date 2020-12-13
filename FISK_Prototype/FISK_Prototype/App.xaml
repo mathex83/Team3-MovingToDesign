@@ -4,6 +4,20 @@
              xmlns:local="clr-namespace:FISK_Prototype"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="PageStyle1" TargetType="Page">
+            <Setter Property="Height" Value="500"/>
+            <Setter Property="Width" Value="375"/>
+            <Setter Property="Background" Value="#CECECE"/>
+        </Style>
+        <Style x:Key="ButtonStyle1" TargetType="Button">
+            <Setter Property="Background" Value="#717171"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="ButtonTextStyle1" TargetType="TextBlock">
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
     </Application.Resources>
 </Application>

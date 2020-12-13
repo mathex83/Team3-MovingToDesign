@@ -4,22 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FISK_Prototype"
-        xmlns:uc ="clr-namespace:FISK_Prototype.ViewModel"
+        xmlns:uc="clr-namespace:FISK_Prototype.ViewModel.Usercontrols"
         mc:Ignorable="d"
-        Title="FISK" Height="812" Width="375" Background="#CECECE" Margin="0">
+        Title="FISK" Height="812" Width="375" Background="#CECECE" Margin="0" WindowStartupLocation="CenterScreen">
     <Grid Margin="0">
-        <TextBlock Text="FISK" Foreground="Black" Width="68" Height="40"
-               HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="36" Margin="0,40,0,0" />
-        <TextBlock Text="Frivillige I Skive Kommune" Foreground="Black" Width="230" Height="27"
-               HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="20" Margin="0,100,0,0"/>
-        <TextBlock Text="Har du en konto?" Foreground="Black" Width="153" Height="27" 
-               HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="20" Margin="0,317,0,0"/>
-        <Button Content="Login" Width="289" Height="140" Background="#717171" Margin="0,355,0,0"
-                HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Top"
-                Width="289" Height="140" Background="#717171" Margin="0,515,0,0">
-            <TextBlock TextAlignment="Center">Opret<LineBreak/>bruger</TextBlock>
-        </Button>
-        <uc:BottomBar Height="80" Width="375" VerticalAlignment="Bottom" BorderThickness="0"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="600"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="FISK" Foreground="Black"
+               HorizontalAlignment="Center" FontFamily="Segoe UI" FontSize="36"/>
+        <TextBlock Text="Frivillige I Skive Kommune" Foreground="Black"
+               HorizontalAlignment="Center" FontFamily="Segoe UI" FontSize="20" Grid.Row="1"/>        
+        <Frame x:Name="PageContent" Height="500" Grid.Row="2"/>
+        <uc:BottomBar Width="375" BorderThickness="0" Grid.Row="3"/>
     </Grid>
 </Window>

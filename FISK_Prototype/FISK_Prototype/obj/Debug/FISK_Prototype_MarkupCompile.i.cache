@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\App.xaml
-2-1996747129
+3-480986080
 
-71805236132
+8-957230455
 13-1505183044
-MainWindow.xaml;ViewModel\BottomBar.xaml;
+MainWindow.xaml;ViewModel\Pages\LoginPage.xaml;ViewModel\Usercontrols\BottomBar.xaml;
 
-False
+True
 

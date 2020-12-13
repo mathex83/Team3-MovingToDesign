@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FISK_Prototype.ViewModel
+namespace FISK_Prototype.ViewModel.Pages
 {
     /// <summary>
-    /// Interaction logic for BottomBar.xaml
+    /// Interaction logic for LoginPage.xaml
     /// </summary>
-    public partial class BottomBar : UserControl
+    public partial class LoginPage : Page
     {
-        public BottomBar()
+        public LoginPage()
         {
             InitializeComponent();
         }
