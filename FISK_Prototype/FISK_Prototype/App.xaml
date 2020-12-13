@@ -10,7 +10,7 @@
             <Setter Property="Background" Value="#CECECE"/>
         </Style>
         <Style x:Key="UCStyle1" TargetType="UserControl">
-            <Setter Property="Background" Value="#717171"/>
+            <Setter Property="Background" Value="#CECECE"/>
             <Setter Property="Margin" Value="0"/>
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Width" Value="375"/>
@@ -54,6 +54,7 @@
             <Setter Property="Height" Value="25"/>
             <Setter Property="Width" Value="25"/>
             <Setter Property="Background" Value="#000000FF"/>
+            <Setter Property="BorderBrush" Value="#000000FF"/>
             <Setter Property="Margin" Value="0"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
