@@ -16,6 +16,16 @@
         <Style x:Key="ButtonStyle1" TargetType="Button">
             <Setter Property="Background" Value="#717171"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#656565"/>
+                    <Setter Property="BorderBrush" Value="#656565"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#555555"/>
+                    <Setter Property="BorderBrush" Value="#555555"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
         <Style x:Key="UCButtonStyle1" TargetType="Button">
             <Setter Property="Height" Value="40"/>

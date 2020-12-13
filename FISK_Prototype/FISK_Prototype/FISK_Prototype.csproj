@@ -102,6 +102,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,6 +119,9 @@
   <ItemGroup>
     <Resource Include="View\Images\arrow_back_ios-24px.png" />
     <Resource Include="View\Images\home-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Images\baseline_close_black_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
