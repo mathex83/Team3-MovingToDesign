@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FISK_Prototype.ViewModel.Pages
+namespace FISK_Prototype.View.Pages
 {
     /// <summary>
     /// Interaction logic for LoginPage.xaml

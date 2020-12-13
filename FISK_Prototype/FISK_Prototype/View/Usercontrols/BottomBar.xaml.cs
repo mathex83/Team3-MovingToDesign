@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FISK_Prototype.ViewModel.Usercontrols
+namespace FISK_Prototype.View.Usercontrols
 {
     /// <summary>
     /// Interaction logic for BottomBar.xaml
