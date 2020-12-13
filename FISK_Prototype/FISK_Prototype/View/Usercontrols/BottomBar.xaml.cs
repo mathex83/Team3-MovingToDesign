@@ -24,5 +24,11 @@ namespace FISK_Prototype.View.Usercontrols
         {
             InitializeComponent();
         }
+
+        private void ExitClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Appen vil nu lukke");
+            Application.Current.Shutdown();
+        }
     }
 }

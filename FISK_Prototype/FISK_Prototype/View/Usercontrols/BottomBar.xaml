@@ -7,14 +7,16 @@
              mc:Ignorable="d" 
              d:DesignHeight="80" d:DesignWidth="375" Style="{StaticResource UCStyle1}">
     <Grid>
-        <Button Style="{StaticResource UCButtonStyle1}" HorizontalAlignment="Left" Margin="20,0,0,0">
-        <Image Source="/View/Images/arrow_back_ios-24px.png" />
-    </Button>
-    <Button Style="{StaticResource UCButtonStyle1}">
-        <Image Source="/View/Images/home-24px.png"/>
-    </Button>
-    <Button Style="{StaticResource UCButtonStyle1}" HorizontalAlignment="Right" Margin="0,0,20,0">
+        <Button Name="BackBtn" Style="{StaticResource UCButtonStyle1}"
+                HorizontalAlignment="Left" Margin="20,0,0,0">
+            <Image Source="/View/Images/arrow_back_ios-24px.png" />
+        </Button>
+        <Button Name="HomeBtn" Style="{StaticResource UCButtonStyle1}">
+            <Image Source="/View/Images/home-24px.png"/>
+        </Button>
+        <Button Name="ExitBtn" Style="{StaticResource UCButtonStyle1}"
+                HorizontalAlignment="Right" Margin="0,0,20,0" Click="ExitClick">
             <Image Source="/View/Images/baseline_close_black_18dp.png"/>
-    </Button>
+        </Button>
     </Grid>
 </UserControl>

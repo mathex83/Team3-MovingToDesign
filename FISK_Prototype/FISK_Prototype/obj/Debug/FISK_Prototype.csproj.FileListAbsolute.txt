@@ -35,3 +35,4 @@ P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Usercontrols\BottomBar.g.cs
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Pages\LoginPage.baml
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Usercontrols\BottomBar.baml
+P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\FISK_Prototype.csprojAssemblyReference.cache

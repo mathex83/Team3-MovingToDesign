@@ -123,5 +123,8 @@
   <ItemGroup>
     <Resource Include="View\Images\baseline_close_black_18dp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Documentation\FISK_SequenceDiagram_ExitButton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
