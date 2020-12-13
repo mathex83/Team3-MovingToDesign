@@ -35,4 +35,10 @@ P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Usercontrols\BottomBar.g.cs
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Pages\LoginPage.baml
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Usercontrols\BottomBar.baml
+P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Pages\LoginSubPage1.g.cs
+P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Pages\LoginSubPage1.baml
+P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Usercontrols\SecondBar.g.cs
+P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Usercontrols\SecondBar.baml
+P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Pages\LoginSubPage2.g.cs
+P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\View\Pages\LoginSubPage2.baml
 P:\GitRepositories\Team1-MovingToDesign\FISK_Prototype\FISK_Prototype\obj\Debug\FISK_Prototype.csprojAssemblyReference.cache

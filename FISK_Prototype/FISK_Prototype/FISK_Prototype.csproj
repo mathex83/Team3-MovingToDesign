@@ -60,8 +60,17 @@
     <Compile Include="View\Pages\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Pages\LoginSubPage1.xaml.cs">
+      <DependentUpon>LoginSubPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\LoginSubPage2.xaml.cs">
+      <DependentUpon>LoginSubPage2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Usercontrols\BottomBar.xaml.cs">
       <DependentUpon>BottomBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Usercontrols\SecondBar.xaml.cs">
+      <DependentUpon>SecondBar.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -79,7 +88,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Pages\LoginSubPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\LoginSubPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Usercontrols\BottomBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Usercontrols\SecondBar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

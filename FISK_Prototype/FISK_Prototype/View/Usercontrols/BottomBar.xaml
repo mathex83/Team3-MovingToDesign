@@ -4,17 +4,19 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FISK_Prototype.View.Usercontrols"
-             mc:Ignorable="d" 
-             d:DesignHeight="80" d:DesignWidth="375" Style="{StaticResource UCStyle1}">
+             mc:Ignorable="d"
+             Style="{StaticResource UCStyle1}">
     <Grid>
-        <Button Name="BackBtn" Style="{StaticResource UCButtonStyle1}"
+        <Button Name="BackBtn" Style="{StaticResource UCButtonStyle}"
                 HorizontalAlignment="Left" Margin="20,0,0,0">
-            <Image Source="/View/Images/arrow_back_ios-24px.png" />
+            <Image Source="/View/Images/arrow_back_ios-24px.png"/>
         </Button>
-        <Button Name="HomeBtn" Style="{StaticResource UCButtonStyle1}">
+        <Button Name="HomeBtn" Style="{StaticResource UCButtonStyle}"
+                Command="{Binding SetPageContentCommand}"
+                CommandParameter="Home">
             <Image Source="/View/Images/home-24px.png"/>
         </Button>
-        <Button Name="ExitBtn" Style="{StaticResource UCButtonStyle1}"
+        <Button Name="ExitBtn" Style="{StaticResource UCButtonStyle}"
                 HorizontalAlignment="Right" Margin="0,0,20,0" Click="ExitClick">
             <Image Source="/View/Images/baseline_close_black_18dp.png"/>
         </Button>

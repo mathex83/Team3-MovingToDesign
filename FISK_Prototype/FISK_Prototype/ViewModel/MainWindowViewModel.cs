@@ -18,8 +18,8 @@ namespace FISK_Prototype.ViewModel.Controls
         }
         public MainWindowViewModel()
         {
-            Page home = new LoginPage();
-            PageContent = home;
+            Page loginPage = new LoginPage();
+            PageContent = loginPage;
 
             //Sætte SetPageContentCommand
             setPageContentCommand = new SetPageContentCommand(this);
@@ -32,12 +32,12 @@ namespace FISK_Prototype.ViewModel.Controls
                 case "LoginPage":
                     PageContent = new LoginPage();
                     break;
-                //case "About":
-                //    PageContent = new About();
-                //    break;
-                //case "Contact":
-                //    PageContent = new Contact();
-                //    break;
+                case "LoginSubPage1":
+                    PageContent = new LoginSubPage1();
+                    break;
+                case "LoginSubPage2":
+                    PageContent = new LoginSubPage2();
+                    break;
                 default:
                     PageContent = new LoginPage();
                     break;

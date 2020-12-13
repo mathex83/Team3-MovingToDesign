@@ -12,14 +12,14 @@
             <RowDefinition Height="50"/>
             <RowDefinition Height="30"/>
             <RowDefinition Height="600"/>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Text="FISK" Foreground="Black"
-               HorizontalAlignment="Center" FontFamily="Segoe UI" FontSize="36"/>
-        <TextBlock Text="Frivillige I Skive Kommune" Foreground="Black"
-               HorizontalAlignment="Center" FontFamily="Segoe UI" FontSize="20" Grid.Row="1"/>
+        <TextBlock Text="FISK" Style="{StaticResource TextBlockStyle}" FontSize="36"/>
+        <TextBlock Text="Frivillige I Skive Kommune" Style="{StaticResource TextBlockStyle}" Grid.Row="1"/>
         <Frame x:Name="PageFrame" Content="{Binding PageContent}" Grid.Row="2" NavigationUIVisibility="Hidden"/>
-        <uc:BottomBar Width="375" BorderThickness="0" Grid.Row="3"/>
+        <uc:SecondBar Grid.Row="3"/>
+        <uc:BottomBar Grid.Row="4"/>
     </Grid>
 </Window>
