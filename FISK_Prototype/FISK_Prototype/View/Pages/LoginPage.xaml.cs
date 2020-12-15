@@ -24,5 +24,10 @@ namespace FISK_Prototype.View.Pages
         {
             InitializeComponent();
         }
+
+        private void LoginButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

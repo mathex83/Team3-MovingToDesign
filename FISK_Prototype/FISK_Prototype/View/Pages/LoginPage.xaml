@@ -16,7 +16,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Text="Har du en konto?" Style="{StaticResource TextBlockStyle}" Margin="0,15,0,0" Grid.Row="0"/>
-        <Button Grid.Row="1" Style="{StaticResource ButtonStyle}">
+        <Button Grid.Row="1" Style="{StaticResource ButtonStyle}" Click="LoginButtonClick">
             <TextBlock Style="{StaticResource ButtonTextStyle}">Login</TextBlock>
         </Button>
         <TextBlock Text="Mangler du en konto?" Grid.Row="2" Style="{StaticResource TextBlockStyle}" Margin="0,15,0,0"/>
