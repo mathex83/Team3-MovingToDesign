@@ -27,11 +27,7 @@ namespace FISK
 
         public void HomeClick(object sender, RoutedEventArgs e)
         {
-            /*Kald PageFrame og brug dens navigation til at gå til "LoginPage.xaml"
-             som er vores Home.*/
-            MainWindow mainWindow = new MainWindow();
-
-            NavigationService nav = mainWindow.PageFrame.NavigationService;            
+            
         }
 
         private void ExitClick(object sender, RoutedEventArgs e)
@@ -41,13 +37,7 @@ namespace FISK
 
         private void BackClick(object sender, RoutedEventArgs e)
         {
-            /*Kald på PageFrame og brug dens navigation til at gå et skridt tilbage.
-             */
-            MainWindow mainWindow = new MainWindow();
-
-            mainWindow.PageFrame.NavigationService.Navigate nav = mainWindow.PageFrame.Navigate(new Uri("LoginPage.xaml", UriKind.RelativeOrAbsolute));
-
-            nav.GoBack();
+            
         }
     }
 }
