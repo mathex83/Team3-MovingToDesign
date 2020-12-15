@@ -4,12 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FISK"
+        xmlns:uc="clr-namespace:FISK"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="165,372,0,0" VerticalAlignment="Top" Width="75"/>
-        <Frame x:Name="myFrame" HorizontalAlignment="Left" Height="248" Margin="50,56,0,0" VerticalAlignment="Top" Width="709"/>
-        <TextBlock Text="Davs"  HorizontalAlignment="Left" Margin="328,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-
+        Title="FISK" Height="812" Width="375" Background="#CECECE" Margin="0" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="600"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="FISK" Style="{StaticResource TextBlockStyle}" FontSize="36"/>
+        <TextBlock Text="Frivillige I Skive Kommune" Style="{StaticResource TextBlockStyle}" Grid.Row="1"/>
+        <Frame x:Name="PageFrame" Grid.Row="2" NavigationUIVisibility="Visible"/>
+        <uc:BottomBar Grid.Row="4"/>
     </Grid>
 </Window>

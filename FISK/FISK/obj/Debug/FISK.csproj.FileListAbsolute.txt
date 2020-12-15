@@ -1,4 +1,3 @@
-P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\FISK.csprojAssemblyReference.cache
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\LoginPage.g.cs
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\LoginSubPage1.g.cs
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\LoginSubPage2.g.cs
@@ -19,3 +18,8 @@ P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\FISK.csproj.Generate
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\FISK.csproj.CoreCompileInputs.cache
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\FISK.exe
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\FISK.pdb
+P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\App.baml
+P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\BottomBar.g.cs
+P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\GeneratedInternalTypeHelper.g.cs
+P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\BottomBar.baml
+P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\FISK.csprojAssemblyReference.cache

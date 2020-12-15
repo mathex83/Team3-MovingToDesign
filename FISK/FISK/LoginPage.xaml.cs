@@ -26,12 +26,15 @@ namespace FISK
         }
 
         private void LoginButtonClick(object sender, RoutedEventArgs e)
+        {            
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new Uri("LoginSubPage1.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void AddUserClick(object sender, RoutedEventArgs e)
         {
-            LoginSubPage1 loginSubPage1 = new LoginSubPage1();
-            this.Visibility = Visibility.Hidden;
-            MainWindow mainWindow1 = new MainWindow();
-            loginSubPage1.Visibility = Visibility.Visible;
-            mainWindow1.myFrame.Navigate(loginSubPage1);
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new Uri("LoginSubPage2.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }

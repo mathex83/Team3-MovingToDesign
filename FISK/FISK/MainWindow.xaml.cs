@@ -24,7 +24,12 @@ namespace FISK
         {
             InitializeComponent();
             LoginPage loginPage = new LoginPage();
-            myFrame.NavigationService.Navigate(loginPage);
+            PageFrame.NavigationService.Navigate(loginPage);
+        }
+
+        private void ExitClick(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }
