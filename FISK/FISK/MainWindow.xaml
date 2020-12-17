@@ -18,7 +18,8 @@
         </Grid.RowDefinitions>
         <TextBlock Text="FISK" Style="{StaticResource TextBlockStyle}" FontSize="36"/>
         <TextBlock Text="Frivillige I Skive Kommune" Style="{StaticResource TextBlockStyle}" Grid.Row="1"/>
-        <Frame x:Name="PageFrame" Grid.Row="2" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="PageFrame" Grid.Row="2" NavigationUIVisibility="Hidden"
+               x:FieldModifier="public"/>
         <uc:BottomBar Grid.Row="4"/>
     </Grid>
 </Window>
