@@ -9,15 +9,16 @@ namespace FISK
     /// </summary>
     public partial class BottomBar : UserControl
     {
-        Frame frame = (Application.Current.MainWindow as MainWindow).PageFrame;
+        Frame frame;
         public BottomBar()
         {
             InitializeComponent();
+            frame = (Application.Current.MainWindow as MainWindow).PageFrame;
         }
 
         public void HomeClick(object sender, RoutedEventArgs e)
         {
-            frame.Navigate(new Uri("LoginPage.xaml", UriKind.RelativeOrAbsolute));            
+            frame.Navigate(new Uri("LoginPage.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void ExitClick(object sender, RoutedEventArgs e)

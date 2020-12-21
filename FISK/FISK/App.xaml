@@ -9,7 +9,7 @@
             <Setter Property="Width" Value="375"/>
             <Setter Property="Background" Value="#CECECE"/>
         </Style>
-        <Style x:Key="UCStyle1" TargetType="UserControl">
+		<Style x:Key="UCStyle1" TargetType="{x:Type UserControl}">
             <Setter Property="Background" Value="#CECECE"/>
             <Setter Property="Margin" Value="0"/>
             <Setter Property="BorderThickness" Value="0"/>

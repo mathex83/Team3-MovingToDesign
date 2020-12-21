@@ -22,4 +22,3 @@ P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\App.baml
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\BottomBar.g.cs
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\GeneratedInternalTypeHelper.g.cs
 P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\BottomBar.baml
-P:\GitRepositories\Team1-MovingToDesign\FISK\FISK\obj\Debug\FISK.csprojAssemblyReference.cache
